@@ -1,1 +1,8 @@
 node_modules/
+
+# Ignore contents inside raw and output, but not the folders themselves
+raw/*
+!raw/.gitkeep
+
+output/*
+!output/.gitkeep
